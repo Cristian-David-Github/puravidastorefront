@@ -3,7 +3,7 @@ import Alert from "@modules/common/icons/alert"
 const PaymentTest = () => {
   const datasignatureintegrity={"data-signature:integrity":"37c8407747e595535433ef8f6a811d853cd943046624a0ec04662b17bbf33bf5"}
   return (
-    
+    <div>
     <form>
     <script
     src="https://checkout.wompi.co/widget.js"
@@ -16,6 +16,7 @@ const PaymentTest = () => {
     >
     </script>
     </form>
+    </div>
     
   )
 }
