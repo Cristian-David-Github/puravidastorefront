@@ -9,8 +9,8 @@ const Home: NextPageWithLayout = () => {
   return (
     <>
       <Head
-        title="Home"
-        description="Shop all available models only at the ACME. Worldwide Shipping. Secure Payment."
+        title="Puravida Store Home"
+        description="We specialize in chinese medicine and acupuncture. Worldwide Shipping. Secure Payment."
       />
       <Hero />
       <FeaturedProducts />
