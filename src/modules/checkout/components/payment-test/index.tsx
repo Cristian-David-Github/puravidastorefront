@@ -2,9 +2,9 @@ import Alert from "@modules/common/icons/alert"
 
 const PaymentTest = () => {
   return (
-    <div className="w-full">
-      <form>
-  <script
+    
+    <form>
+    <script
     src="https://checkout.wompi.co/widget.js"
     data-render="button"
     data-public-key="pub_test_X0zDA9xoKdePzhd8a0x9HAez7HgGO2fH"
@@ -13,9 +13,9 @@ const PaymentTest = () => {
     data-reference="4XMPGKWWPKWQ"
     data-signatureIntegrity="37c8407747e595535433ef8f6a811d853cd943046624a0ec04662b17bbf33bf5"
     >
-  </script>
-</form>
-    </div>
+    </script>
+    </form>
+    
   )
 }
 
