@@ -15,6 +15,7 @@ const Head: React.FC<HeadProps> = ({ title, description, image }) => {
       {description && <meta itemProp="description" content={description} />}
       {image && <meta itemProp="image" content={image} />}
       <link rel="icon" href="/favicon.ico" />
+      <script type="text/javascript" src="https://checkout.wompi.co/widget.js"></script>
     </NextHead>
   )
 }
