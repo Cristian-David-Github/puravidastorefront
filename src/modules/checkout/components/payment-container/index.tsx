@@ -23,7 +23,7 @@ const PaymentInfoMap: Record<string, { title: string; description: string }> = {
   },
   manual: {
     title: "Test payment",
-    description: "Test payment using medusa-payment-manual",
+    description: "Test payment using medusao-paymento-manualo",
   },
 }
 
