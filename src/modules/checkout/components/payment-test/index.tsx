@@ -3,19 +3,13 @@ import Alert from "@modules/common/icons/alert"
 const PaymentTest = () => {
   return (
     <div className="w-full">
-      <form>
-  <script
-    src="https://checkout.wompi.co/widget.js"
-    data-render="button"
-    data-public-key="pub_test_X0zDA9xoKdePzhd8a0x9HAez7HgGO2fH"
-    data-currency="COP"
-    data-amount-in-cents="4950000"
-    data-reference="4XMPGKWWPKWQ"
-    data-signature-integrity="37c8407747e595535433ef8f6a811d853cd943046624a0ec04662b17bbf33bf5"
-    >
-  </script>
-</form>
-      
+      <div className="flex items-center gap-x-2 bg-yellow-100 w-full p-2">
+        <Alert size={16} className="text-yellow-700" />
+        <span className="text-small-regular text-yellow-700">
+          <span className="font-semibold">Attention:</span> For testing purposes
+          only.
+        </span>
+      </div>
     </div>
   )
 }
