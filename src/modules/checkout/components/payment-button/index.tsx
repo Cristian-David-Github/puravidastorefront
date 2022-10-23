@@ -232,6 +232,7 @@ const ManualTestPaymentButton = ({ notReady }: { notReady: boolean }) => {
 
     setSubmitting(false)
   }
+  const atributeElement={"data-signature:integrity":"37c8407747e595535433ef8f6a811d853cd943046624a0ec04662b17bbf33bf5"}
 
   return (
     <>
@@ -243,7 +244,7 @@ const ManualTestPaymentButton = ({ notReady }: { notReady: boolean }) => {
       data-currency="COP"
       data-amount-in-cents="4950000"
       data-reference="4XMPGKWWPKWQ"
-      data-signature:integrity="37c8407747e595535433ef8f6a811d853cd943046624a0ec04662b17bbf33bf5"
+      {...atributeElement}      
       >
     </script>
   </form>
